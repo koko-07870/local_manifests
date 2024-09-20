@@ -17,7 +17,7 @@
   <project path="kernel/samsung/sm7125" name="LineageOS/android_kernel_samsung_sm7125" remote="github" clone-depth="1" revision="lineage-21" />
 
   <!-- hardware -->
-  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-21" />
+  <project path="hardware/samsung" name="koko-07870/android_hardware_samsung" remote="github" revision="new" />
 
   <!-- nfc -->
   <project path="hardware/samsung/nfc" name="LineageOS/android_hardware_samsung_nfc" remote="github" revision="lineage-21.0" />
