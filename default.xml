@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="main" fetch="https://github.com/xlwnx" />
   
-  <!-- /* device specific */ -->
-
   <!-- device -->
-  <project path="device/samsung/m12" name="device_samsung_m12.git" remote="main" revision="main" />
+  <project path="device/samsung/a52q" name="koko-07870/android_device_samsung_a52q" remote="github" revision="derp" />
 
+  <!-- common -->
+  <project path="device/samsung/sm7125-common" name="koko-07870/android_device_samsung_sm7125-common" remote="github" clone-depth="1" revision="derp" />
+  
   <!-- vendor -->
-  <project path="vendor/samsung/m12" name="vendor_samsung_m12.git" remote="main" revision="main" />
+  <project path="vendor/samsung/a52q" name="TheMuppets/proprietary_vendor_samsung_a52q" remote="github" clone-depth="1" revision="lineage-21" />
+
+  <!-- common vendor -->
+  <project path="vendor/samsung/sm7125-common" name="proprietary_vendor_samsung_sm7125-common" remote="github" clone-depth="1" revision="lineage-21" />
 
   <!-- kernel -->
-  <project path="kernel/samsung/m12" name="kernel_samsung_m12.git" remote="main" revision="main" />
+  <project path="kernel/samsung/sm7125" name="LineageOS/android_kernel_samsung_sm7125" remote="github" clone-depth="1" revision="lineage-21" />
 
+  <!-- hardware -->
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-21" />
+
+  <!-- nfc -->
+  <project path="hardware/samsung/nfc" name="LineageOS/android_hardware_samsung_nfc" remote="github" revision="lineage-21.0" />
+  
 </manifest>
