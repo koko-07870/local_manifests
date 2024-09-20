@@ -11,7 +11,7 @@
   <project path="vendor/samsung/a52q" name="TheMuppets/proprietary_vendor_samsung_a52q" remote="github" clone-depth="1" revision="lineage-21" />
 
   <!-- common vendor -->
-  <project path="vendor/samsung/sm7125-common" name="proprietary_vendor_samsung_sm7125-common" remote="github" clone-depth="1" revision="lineage-21" />
+  <project path="vendor/samsung/sm7125-common" name="TheMuppets/proprietary_vendor_samsung_sm7125-common" remote="github" clone-depth="1" revision="lineage-21" />
 
   <!-- kernel -->
   <project path="kernel/samsung/sm7125" name="LineageOS/android_kernel_samsung_sm7125" remote="github" clone-depth="1" revision="lineage-21" />
