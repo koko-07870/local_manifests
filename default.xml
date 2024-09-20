@@ -21,5 +21,7 @@
 
   <!-- nfc -->
   <project path="hardware/samsung/nfc" name="LineageOS/android_hardware_samsung_nfc" remote="github" revision="lineage-21.0" />
-  
+
+  <!-- vendor_support -->
+  <project path="vendor/support" name="koko-07870/derp_vendor_support" remote="github" revision="14" />
 </manifest>
