@@ -24,7 +24,4 @@
 
   <!-- hardware -->
   <project path="hardware/samsung" name="android_hardware_samsung" remote="koko" revision="new" />
-
-  <!-- vendor_support -->
-  <project path="vendor/support" name="derp_vendor_support" remote="koko" revision="14" />
 </manifest>
