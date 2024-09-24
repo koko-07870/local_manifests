@@ -5,6 +5,9 @@
   <remote name="vendor1"
   fetch="https://github.com/TheMuppets" />
   
+  <!-- Removals -->
+  <remove-project name="DerpFest-AOSP/vendor_support" />
+  
   <!-- device -->
   <project path="device/samsung/a52q" name="android_device_samsung_a52q" remote="koko" revision="derp" />
 
