@@ -2,8 +2,6 @@
 <manifest>
   <remote name="koko"
   fetch="https://github.com/koko-07870" />
-  <remote name="lineage"
-  fetch="https://github.com/lineageos" />
   <remote name="vendor1"
   fetch="https://github.com/TheMuppets" />
   
@@ -20,7 +18,7 @@
   <project path="vendor/samsung/sm7125-common" name="proprietary_vendor_samsung_sm7125-common" remote="vendor1" revision="lineage-21" />
 
   <!-- kernel -->
-  <project path="kernel/samsung/sm7125" name="android_kernel_samsung_sm7125" remote="lineage" revision="lineage-21" />
+  <project path="kernel/samsung/sm7125" name="LineageOS/android_kernel_samsung_sm7125" remote="github" revision="lineage-21" />
 
   <!-- hardware -->
   <project path="hardware/samsung" name="android_hardware_samsung" remote="koko" revision="new" />
