@@ -22,7 +22,7 @@
   <project path="vendor/samsung/sm7125-common" name="proprietary_vendor_samsung_sm7125-common" remote="vendor1" revision="lineage-21" />
 
   <!-- kernel -->
-  <project path="kernel/samsung/sm7125" name="LineageOS/android_kernel_samsung_sm7125" remote="github" revision="lineage-21" />
+  <project path="kernel/samsung/sm7125" name="kernel_samsung_sm7125" remote="koko" revision="rising-14" />
 
   <!-- hardware -->
   <project path="hardware/samsung" name="android_hardware_samsung" remote="koko" revision="new" />
@@ -32,4 +32,9 @@
 
   <!-- updater -->
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="koko" revision="14" />
+
+  <!-- viper -->
+  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="koko" revision="v4a" />
+
+  <project path="vendor/derp/signing/keys" name="" remote="koko" revision="" />
 </manifest>
