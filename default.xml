@@ -6,10 +6,9 @@
   fetch="https://github.com/TheMuppets" />
   
   <!-- Removals -->
-  <remove-project name="" />
-  <remove-project name="" />
-  <remove-project name="" />
-
+  <remove-project name="vendor_aosp" />
+  <remove-project name="packages_apps_Updates" />
+  
   <!-- device -->
   <project path="device/samsung/a52q" name="android_device_samsung_a52q" remote="koko" revision="fourteen" />
 
@@ -29,14 +28,14 @@
   <project path="hardware/samsung" name="android_hardware_samsung" remote="koko" revision="lineage-21" />
 
   <!-- extra -->
-  <project path="" name="" remote="koko" revision="" />
+  <project path="vendor/extra" name="vendor_extra" remote="koko" revision="master" />
 
   <!-- updater -->
-  <project path="" name="packages_apps_Updater" remote="koko" revision="14" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="koko" revision="fourteen" />
 
   <!-- viper -->
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="koko" revision="v4a" />
 
-  <!-- vendor/derp-->
-  <project path="" name="vendor" remote="koko" revision="14" />
+  <!-- vendor/aosp-->
+  <project path="vendor/aosp" name="vendor_aosp" remote="koko" revision="fourteen" />
 </manifest>
