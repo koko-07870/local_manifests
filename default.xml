@@ -5,16 +5,11 @@
   <remote name="vendor1"
   fetch="https://github.com/TheMuppets" />
   
-  <!-- Removals -->
-  <remove-project name="vendor_support" />
-  <remove-project name="packages_apps_Updater" />
-  <remove-project name="vendor_derp" />
-
   <!-- device -->
-  <project path="device/samsung/a52q" name="android_device_samsung_a52q" remote="koko" revision="derp" />
+  <project path="device/samsung/a52q" name="android_device_samsung_a52q" remote="koko" revision="pixelage" />
 
   <!-- common -->
-  <project path="device/samsung/sm7125-common" name="android_device_samsung_sm7125-common" remote="koko" revision="derp" />
+  <project path="device/samsung/sm7125-common" name="android_device_samsung_sm7125-common" remote="koko" revision="pixelage" />
   
   <!-- vendor -->
   <project path="vendor/samsung/a52q" name="proprietary_vendor_samsung_a52q" remote="vendor1" revision="lineage-21" />
@@ -23,20 +18,8 @@
   <project path="vendor/samsung/sm7125-common" name="proprietary_vendor_samsung_sm7125-common" remote="vendor1" revision="lineage-21" />
 
   <!-- kernel -->
-  <project path="kernel/samsung/sm7125" name="kernel_samsung_sm7125" remote="koko" revision="rising-14" />
+  <project path="kernel/samsung/sm7125" name="android_kernel_sm7125" remote="koko" revision="new-1" />
 
   <!-- hardware -->
   <project path="hardware/samsung" name="android_hardware_samsung" remote="koko" revision="new" />
-
-  <!-- extra -->
-  <project path="vendor/support" name="derp_vendor_support" remote="koko" revision="14" />
-
-  <!-- updater -->
-  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="koko" revision="14" />
-
-  <!-- viper -->
-  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="koko" revision="v4a" />
-
-  <!-- vendor/derp-->
-  <project path="vendor/derp" name="vendor_derp" remote="koko" revision="14" />
 </manifest>
