@@ -22,4 +22,7 @@
 
   <!-- hardware -->
   <project path="hardware/samsung" name="android_hardware_samsung" remote="koko" revision="new" />
+
+  <!-- viper -->
+  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="koko" revision="v4a" />
 </manifest>
