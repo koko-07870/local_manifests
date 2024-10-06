@@ -6,7 +6,6 @@
   fetch="https://github.com/TheMuppets" />
   
   <!-- Removals -->
-  <remove-project name="vendor_aosp" />
   <remove-project name="packages_apps_Updates" />
   
   <!-- device -->
@@ -35,7 +34,4 @@
 
   <!-- viper -->
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="koko" revision="v4a" />
-
-  <!-- vendor/aosp-->
-  <project path="vendor/aosp" name="vendor_aosp" remote="koko" revision="fourteen" />
 </manifest>
