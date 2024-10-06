@@ -8,16 +8,12 @@ rm -rf hardware/samsung
 rm -rf vendor/extra
 rm -rf packages/apps/Updates
 
-echo "========================================================================"
-echo "DELETED DIRECTORIES"
-echo "========================================================================"
+echo "----------------DELETED DIRECTORIES----------------"
 
 
 repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fourteen --git-lfs --depth=1
 
-echo "========================================================================"
-echo "REPO INITIALISED"
-echo "========================================================================"
+echo "--------------REPO INITIALISED---------------"
 
 
 # Clone local_manifests repository
@@ -26,26 +22,20 @@ if [ ! 0 == 0 ]
     then curl -o .repo/local_manifests https://github.com/koko-07870/local_manifests.git
 fi
 
-echo "========================================================================"
-echo "CLONED local manifest"
-echo "========================================================================"
+echo "-----------------CLONED local manifest-------------------"
 
 
 # Resync
 /opt/crave/resync.sh
 
-echo "========================================================================"
-echo "RESYNCED"
-echo "========================================================================"
+echo "---------------RESYNCED-----------------"
 
 
 # Upgrade System
 
 sudo apt update && sudo apt upgrade -y
 
-
-echo "SYSTEM UPGRADED"
-echo "========================================================================"
+echo "---------------SYSTEM UPGRADED-------------------"
 
 
 # Clone Keys
@@ -62,8 +52,7 @@ fi
 #get keys
 wget https://github.com/koko-07870/scripts/blob/new/keys.zip && unzip -o keys.zip -d "$DIRKEYS" && rm keys.zip
 
-echo "CLONED KEYS"
-echo "========================================================================"
+echo "---------------CLONED KEYS-----------------"
 
 
 OTA1="vendor/aosp/build/core/main_version.mk"
@@ -79,8 +68,7 @@ fi
 #get main_version.mk
 wget https://raw.githubusercontent.com/koko-07870/scripts/refs/heads/new/main_version.mk -P vendor/aosp/build/core/
 
-echo "OTA1 CLONED"
-echo "========================================================================"
+echo "--------------OTA1 CLONED--------------"
 
 
 OTA2="vendor/aosp/config/ota.mk"
@@ -96,8 +84,7 @@ fi
 #get ota.mk
 wget https://github.com/koko-07870/scripts/blob/new/ota.mk -P vendor/aosp/config/
 
-echo "ota.mk cloned"
-echo "========================================================================"
+echo "--------------ota.mk cloned--------------"
 
 
 # Lunch
@@ -107,3 +94,5 @@ source build/envsetup.sh
 lunch aosp_a52q-ap2a-userdebug
 make installclean
 mka bacon
+
+echo "--------------BUILD STARTED--------------"
