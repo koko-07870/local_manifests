@@ -28,7 +28,7 @@
   <project path="hardware/samsung" name="android_hardware_samsung" remote="koko" revision="lineage-21" />
 
   <!-- extra -->
-  <project path="vendor/extra" name="vendor_extra" remote="koko" revision="master" />
+  <project path="vendor/extra" name="vendor_extra" remote="koko" revision="main" />
 
   <!-- updater -->
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="koko" revision="fourteen" />
