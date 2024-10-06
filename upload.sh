@@ -1,11 +1,20 @@
 #!/bin/bash
 
+#Create Project Dir
+crave clone create --projectID 82 /crave-devspaces/Pixel14
+
+echo "========================================================================"
+echo "Project dir Created"
+echo "========================================================================"
+
+#Go into the dir
 cd Pixel14
 
 echo "========================================================================"
 echo "Inside the Project dir"
 echo "========================================================================"
 
+#crave yaml
 rm .repo/manifests/crave.yaml* || true; # Removes existing crave.yamls
 
 curl -o .repo/manifests/crave.yaml https://raw.githubusercontent.com/sounddrill31/crave_aosp_builder/main/configs/crave/crave.yaml.aosp # Downloads crave.yaml
