@@ -7,7 +7,8 @@
   
   <!-- Removals -->
   <remove-project name="packages_apps_Updates" />
-  
+  <remove-project name="vendor_aosp" />
+    
   <!-- device -->
   <project path="device/samsung/a52q" name="android_device_samsung_a52q" remote="koko" revision="fourteen" />
 
