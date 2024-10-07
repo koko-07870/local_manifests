@@ -28,6 +28,9 @@
 
   <!-- extra -->
   <project path="vendor/extra" name="vendor_extra" remote="koko" revision="main" />
+  
+  <!-- vendor/aosp -->
+  <project path="vendor/aosp" name="vendor_aosp" remote="koko" revision="fourteen" />
 
   <!-- updater -->
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="koko" revision="fourteen" />
