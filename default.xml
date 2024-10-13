@@ -10,13 +10,13 @@
   <remove-project name="vendor_aosp" />
     
   <!-- device -->
-  <project path="device/samsung/a52q" name="android_device_samsung_a52q" remote="koko" revision="fourteen" />
+  <project path="device/samsung/a72q" name="device_samsung_a72q" remote="koko" revision="fourteen" />
 
   <!-- common -->
   <project path="device/samsung/sm7125-common" name="android_device_samsung_sm7125-common" remote="koko" revision="fourteen" />
   
   <!-- vendor -->
-  <project path="vendor/samsung/a52q" name="proprietary_vendor_samsung_a52q" remote="vendor1" revision="lineage-21" />
+  <project path="vendor/samsung/a72q" name="proprietary_vendor_samsung_a72q" remote="vendor1" revision="lineage-21" />
 
   <!-- common vendor -->
   <project path="vendor/samsung/sm7125-common" name="proprietary_vendor_samsung_sm7125-common" remote="vendor1" revision="lineage-21" />
@@ -34,7 +34,7 @@
   <project path="vendor/aosp" name="vendor_aosp" remote="koko" revision="fourteen" />
 
   <!-- updater -->
-  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="koko" revision="fourteen" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="koko" revision="fourteen-a72" />
 
   <!-- viper -->
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="koko" revision="v4a" />
