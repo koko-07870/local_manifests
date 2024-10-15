@@ -13,7 +13,7 @@
   <project path="device/samsung/a52q" name="device_samsung_a52q" remote="koko" revision="fourteen" />
 
   <!-- common -->
-  <project path="device/samsung/sm7125-common" name="android_device_samsung_sm7125-common" remote="koko" revision="fourteen" />
+  <project path="device/samsung/sm7125-common" name="device_samsung_sm7125-common" remote="koko" revision="fourteen" />
   
   <!-- vendor -->
   <project path="vendor/samsung/a52q" name="proprietary_vendor_samsung_a52q" remote="vendor1" revision="lineage-21" />
