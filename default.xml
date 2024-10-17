@@ -4,7 +4,10 @@
   fetch="https://github.com/koko-07870" />
   <remote name="vendor1"
   fetch="https://github.com/TheMuppets" />
-  
+
+  <!-- Removals -->
+  <remove-project name="android_vendor_pixelage" />
+
   <!-- device -->
   <project path="device/samsung/a52q" name="android_device_samsung_a52q" remote="koko" revision="pixelage" />
 
@@ -25,4 +28,6 @@
 
   <!-- viper -->
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="koko" revision="v4a" />
+
+  <project path="vendor/pixelage" name="android_vendor_pixelage" remote="koko" revision="15" />  
 </manifest>
