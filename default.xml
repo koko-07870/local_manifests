@@ -27,14 +27,8 @@
   <project path="hardware/samsung" name="android_hardware_samsung" remote="koko" revision="lineage-new" />
 
   <!-- extra -->
-  <project path="vendor/support" name="derp_vendor_support" remote="koko" revision="14" />
-
-  <!-- updater -->
-  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="koko" revision="14" />
+  <project path="vendor/support" name="derp_vendor_support" remote="koko" revision="15" />
 
   <!-- viper -->
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="koko" revision="v4a" />
-
-  <!-- vendor/derp-->
-  <project path="vendor/derp" name="vendor_derp" remote="koko" revision="14" />
 </manifest>
