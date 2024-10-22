@@ -7,6 +7,7 @@
   
   <!-- Removals -->
   <remove-project name="vendor_support" />
+  <remove-project name="packages_apps_Updater" />
 
   <!-- device -->
   <project path="device/samsung/a52q" name="android_device_samsung_a52q" remote="koko" revision="derp" />
@@ -31,4 +32,7 @@
 
   <!-- viper -->
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="koko" revision="v4a" />
+  
+  <!-- Updater -->
+  <project path="packages/apps/Updater" name="derp_Updater" remote="koko" revision="15" />
 </manifest>
