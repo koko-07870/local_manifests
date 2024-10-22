@@ -4,11 +4,7 @@
   fetch="https://github.com/koko-07870" />
   <remote name="vendor1"
   fetch="https://github.com/TheMuppets" />
-  
-  <!-- Removals -->
-  <remove-project name="packages_apps_Updates" />
-  <remove-project name="vendor_aosp" />
-    
+      
   <!-- device -->
   <project path="device/samsung/a52q" name="device_samsung_a52q" remote="koko" revision="fourteen" />
 
@@ -30,12 +26,6 @@
   <!-- extra -->
   <project path="vendor/extra" name="vendor_extra" remote="koko" revision="main" />
   
-  <!-- vendor/aosp -->
-  <project path="vendor/aosp" name="vendor_aosp" remote="koko" revision="fourteen" />
-
-  <!-- updater -->
-  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="koko" revision="fourteen" />
-
   <!-- viper -->
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="koko" revision="v4a" />
 </manifest>
