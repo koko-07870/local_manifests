@@ -4,7 +4,12 @@
   fetch="https://github.com/koko-07870" />
   <remote name="vendor1"
   fetch="https://github.com/TheMuppets" />
-      
+  <remote name="VoltageOS-staging"
+  fetch="https://github.com/VoltageOS-staging" />
+    
+  <remove-project name="frameworks_base" />
+  <remove-project name="frameworks_native" />
+  
   <!-- device -->
   <project path="device/samsung/a52q" name="device_samsung_a52q" remote="koko" revision="voltage-15" />
 
@@ -25,4 +30,8 @@
 
   <!-- viper -->
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="koko" revision="v4a" />
+
+  <project path="frameworks/base" name="frameworks_base" remote="VoltageOS-staging" revision="15-udfps" />
+
+  <project path="frameworks/native" name="frameworks_native" remote="VoltageOS-staging" revision="15-udfps" />
 </manifest>
